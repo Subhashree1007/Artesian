@@ -1,0 +1,209 @@
+/* Global Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color:skyblue;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #555;
+  font-size: 1.8rem;
+  margin: 20px 0;
+}
+
+/* First Row: Images 1 to 4 */
+.box-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.box {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 20%;
+  height: 250px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.box-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Supporting Conditions Section */
+.supporting-conditions {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 30px auto;
+  gap: 20px;
+}
+
+.circle-diagram {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.circle-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.right-conditions {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Reduced size for Image 8 */
+.right-conditions .top-image img {
+  width: 50%; /* Reduced width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto; /* Center image */
+}
+
+/* Reduced size for Images 9, 10, 11 */
+.right-conditions .vertical-stack img {
+  width: 50%; /* Reduced width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto; /* Center image */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.right-conditions .vertical-stack img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Fourth Row: Terai Conditions 6 & 7 */
+.horizontal-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.horizontal-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 20%;
+  height: 300px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.horizontal-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.horizontal-item h3 {
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.horizontal-item .box-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+/* Decline Section */
+.decline-box {
+  margin-top: 30px;
+  padding: 15px;
+  text-align: center;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.decline-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.decline-box h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.decline-box img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.terai-points {
+  margin-top: 30px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.terai-points h3 {
+  color: #007bff;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.terai-points ul {
+  list-style-type: disc;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.terai-points li {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
